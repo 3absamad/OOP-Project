@@ -25,8 +25,10 @@ namespace OOP_Project
         {
             Console.WriteLine("\n========== FINAL EXAM ==========");
             Console.WriteLine($"Duration: {TimeOfExam}");
-            Console.WriteLine(
-                $"Number of Questions: {NumberOfQuestions}");
+            Console.WriteLine($"Number of Questions: {NumberOfQuestions}");
+            Console.WriteLine("================================");
+            Console.WriteLine();
+
 
             int grade = 0;
             int totalMarks = 0;

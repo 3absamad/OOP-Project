@@ -25,15 +25,15 @@ namespace OOP_Project
         {
             Console.WriteLine("\n======= PRACTICAL EXAM =======");
             Console.WriteLine($"Duration: {TimeOfExam}");
-            Console.WriteLine(
-                $"Number of Questions: {NumberOfQuestions}");
+            Console.WriteLine($"Number of Questions: {NumberOfQuestions}");
+            Console.WriteLine("================================");
+            Console.WriteLine();
 
             foreach (Question question in Questions)
             {
                 question.Display();
 
-                Console.WriteLine(
-                    $"Correct Answer: {question.RightAnswer.AnswerText}");
+                Console.WriteLine($"Correct Answer: {question.RightAnswer.AnswerText}");
 
                 Console.WriteLine();
             }

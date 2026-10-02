@@ -17,7 +17,7 @@
 
             // Question 1: True/False
             Question q1 = new TFQuestion(
-                "Question 1",
+                "[True Or False] Question 1",
                 "C# is an object-oriented programming language.",
                 2,
                 true);
@@ -34,7 +34,7 @@
             };
 
             Question q2 = new MCQQuestion(
-                "Question 2",
+                "[MCQ] Question 2",
                 "Which language is developed by Microsoft?",
                 3,
                 answers2,
@@ -52,7 +52,7 @@
             };
 
             Question q3 = new MCQQuestion(
-                "Question 3",
+                "[MCQ] Question 3",
                 "Which method prints text in C#?",
                 5,
                 answers3,
@@ -73,7 +73,7 @@
                 (Question)q2.Clone();
 
 
-            Console.WriteLine("\nCloned Question:");
+            Console.WriteLine("Cloned Question:");
             Console.WriteLine(copiedQuestion);
 
             // Demonstrate IComparable
@@ -87,6 +87,7 @@
 
             // Demonstrate ToString
             Console.WriteLine(subject.ToString());
+
         }
     }
 }
